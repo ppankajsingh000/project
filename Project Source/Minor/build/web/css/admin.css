@@ -1,0 +1,84 @@
+body {
+	background: url("../images/faculty.jpg") no-repeat center center fixed;
+	background-size: cover;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	margin: 0;
+	color: #666;
+        margin: 10px;
+}
+
+.facultycontainer{margin: auto;width:780px;}
+.facultycontainerin{float: left;width:778px;background: #fff;border:1px solid #999;border-radius:5px;
+box-shadow:0px 0px 10px 10px #ccc;
+margin-top:10%}
+
+
+.facultycontainerincol1{float: left;width: 33%;margin-bottom: 0px;}
+
+
+.topheader{border-radius:5px 5px 0px 0px;background: #666;color: #fff;font-size: 17px;font-weight: bold;float: left;
+          width:96.2%;padding:15px;}
+.topheader a{color: #ccc;text-decoration: none;}
+
+.topheader a:hover{color: #fff;}
+
+.facultycontainerinbody{float: left;width:96%;padding: 15px;}
+
+.left{float:left;}
+.right{float: right;}
+
+.facultylabel{font-size: 14px;font-weight: bold;color: #666;margin-bottom:6px;float: left;width: 100%;}
+
+.facultycontainerinbodyrow{float: left;width: 100%;margin-bottom:20px;}
+
+input[type="text"]{width:80%;padding:8px;border: 1px solid #ccc;border-radius:3px;}
+
+
+input[type="password"]{width:80%;padding:8px;border: 1px solid #ccc;border-radius:3px;}
+input[type="submit"]{padding: 10px 30px !important;border: 1px solid #fff !important; border-radius:5px !important;
+                     background:#008CBA !important;
+font-size: 14px;color: #fff !important;font-weight: bold;}
+
+input[type="submit"]:hover{background:#00a2d3 !important;;}
+
+input[type="button"]{padding: 10px 30px !important;border: 1px solid #fff !important; border-radius:5px !important;
+                     background:darkred !important;
+font-size: 14px;color: #fff !important;font-weight: bold;}
+
+input[type="button"]:hover{background: brown !important;;}
+
+select{border: 1px solid #ccc;padding:10px 2px;border-radius:2px;
+width: 83.8%;}
+
+textarea{width:80%;padding:8px;border: 1px solid #ccc;border-radius:3px;height: 100px;}
+
+table{border: 1px solid #ccc;text-align: center;}
+table th{padding: 0px 50px;background: #665851;color: #fff;font-size: 14px;}
+table td{padding: 10px 50px;}
+
+.adminbodyul{margin: 0px;padding: 0px}
+.adminbodyul li{margin-bottom: 10px;float: left;width: 100%;list-style: none;}
+
+.abminlrftside{float: left;width:20%;color: #666;font-size: 14px;font-weight: bold;margin-bottom: 0px;}
+
+.abminrightside{float: left;width:70%;margin-left: 20px;}
+
+.admintop{margin-top: 20px;}
+
+@media only screen and (max-width:860px) and (min-width:150px)
+{
+    
+    .facultycontainerincol1{float: left;width:100%;margin-bottom: 10px;}
+    .facultycontainerinbody{float: left;width:100%;padding: 15px;}
+    .facultycontainer{margin: auto;width:100%;}
+.facultycontainerin{float: left;width:100%;margin-top:15%}
+.topheader{
+          width:93%;padding:15px;}
+
+.abminlrftside{float: left;width:100%;color: #666;font-size: 14px;font-weight: bold;margin-bottom: 10px;}
+
+.abminrightside{float: left;width:100%;margin-left:0px;}
+    
+}

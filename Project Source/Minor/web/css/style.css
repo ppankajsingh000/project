@@ -1,0 +1,628 @@
+body {
+	background: url("../images/faculty.jpg") no-repeat center center fixed;
+	background-size: cover;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	margin: 0;
+	color: #666;
+}
+
+/* Typography */
+
+/* home css start */
+
+.homecontainer{margin:auto;width: 980px; }
+.homecontainerin{width: 980px; float:left;  margin-top:6%; }
+.homecontainercol{width:25%; float:left; text-align:center;}
+.homecontainercolcircle{width:200px;border-radius:50%;background: white;height: 200px;text-align: center;margin-left:14px;
+border:8px solid #008CBA;}
+.homecontainercolcircle img{width:200px;border-radius:50%;height: 200px;}
+.homecontainercol h2{font-weight: bold;font-size: 22px;color: black;text-shadow: 1px 1px 1px red;}
+
+/* home css end */
+
+
+/* after login css start */
+
+.closeright{float: right !important;}
+
+.afterlogincontainer{margin:80px auto auto auto;width: 1390px;}
+
+.afterlogincontainerleft{width:20%;float: left;}
+
+.afterlogincontainerleft ul{margin: 0px;padding: 0px;}
+.afterlogincontainerleft ul li{list-style: none;float: left;width: 95%;margin-bottom:5px;}
+.afterlogincontainerleft ul li a{loat: left;width: 95%;padding: 15px 10px;color: #fff;background: #008CBA;
+font-size: 17px;font-weight: bold;font-family:  monospace;
+text-decoration: none;}
+
+.afterlogincontainerleft ul li a:hover{background: #00a2d3;}
+.afterlogincontainerright{width:78%;float: right;background: #fff;}
+
+.afterlogincontainerright ul{margin: 0px;padding: 0px;}
+.afterlogincontainerright ul li{list-style: none;float: left;width: 95%;margin-bottom:10px;}
+
+.container h2 { margin-top:30px;}
+
+.submessage{font-size: 13px;margin-top: 10px;}
+
+.box h3{
+	text-align:center;
+	position:relative;
+	top:80px;
+}
+.box {
+	width:70%;
+	height:200px;
+	background:#FFF;
+	margin:40px auto;
+}
+          div.position {
+    position:absolute;
+    top:210px;
+   
+}
+         .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:blink;
+    display: inline-block;
+    font-size: 14px;
+   
+    margin: 2px 1px;
+    cursor: pointer;
+}
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 3px solid #008CBA;
+}
+            .alert-box {
+    color:#555;
+    border-radius:10px;
+    font-family:Tahoma,Geneva,Arial,sans-serif;font-size:11px;
+    padding:10px 10px 10px 36px;
+    margin:10px;
+}
+.alert-box span {
+    font-weight:bold;
+    text-transform:uppercase;
+}
+.error {
+    background:#ffecec url('images/error.png') no-repeat 10px 50%;
+    border:1px solid #f5aca6;
+}
+.success {
+    background:#e9ffd9 url('images/notice.gif') no-repeat 10px 50%;
+    border:2px solid #a6ca8a;
+    
+    position:relative;
+}
+.warning {
+    background:#fff8c4 url('images/notice.gif') no-repeat 10px 50%;
+    border:1px solid #f2c779;
+    
+    position:relative;
+}
+.notice {
+    background:#e3f7fc url('images/notice.gif') no-repeat 10px 50%;
+    border:3px solid #8ed9f6;
+    
+     position:relative;
+}
+#ProfilePage
+{
+    /* Move it off the top of the page, then centre it horizontally */
+    float: left;
+    width:60%;
+    margin-left: 30px;
+    padding: 20px;
+
+/* For visibility. Delete me */
+border: 1px solid #ccc;
+}
+
+#LeftCol
+{
+    /* Move it to the left */
+    float: left;
+
+    width: 200px;
+    text-align: center;
+
+    /* Move it away from the content */
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;font-size: 13px;color: #999;
+
+/* For visibility. Delete me */
+
+}
+
+#Photo
+{
+    /* Width and height of photo container */
+    width: 200px;
+    height: 200px;
+
+/* For visibility. Delete me */
+border: 1px solid green;
+margin-bottom: 10px;
+}
+
+#PhotoOptions
+{
+    text-align: center;
+    padding-top:10px;
+
+
+}
+
+#Info
+{
+    width: 72%;
+    
+
+    /* Move it to the right */
+    float: right;
+
+/* For visibility. Delete me */
+
+}
+
+#Info strong
+{
+    /* Give it a width */
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    width: 20%;
+    margin-bottom:0px;
+
+/* For visibility. Delete me */
+
+}
+
+#Info span
+{
+    /* Give it a width */
+    display: inline-block;
+    /* For visibility. Delete me */
+    border: 1px solid #eee;
+    border-radius:2px;
+    padding: 8px;
+    width: 70%;
+    
+
+}
+
+.editprofile
+{
+    width:100%;
+    /* Move it to the right */
+    float: right;
+
+/* For visibility. Delete me */
+
+}
+
+input[type="text"]{width:80%;padding:8px;border: 1px solid #ccc;border-radius:3px;}
+input[type="password"]{width:80%;padding:8px;border: 1px solid #ccc;border-radius:3px;}
+input[type="submit"]{padding: 10px 30px !important;border: 1px solid #fff !important; border-radius:5px !important;
+                     background:#008CBA !important;
+font-size: 14px;color: #fff !important;font-weight: bold;}
+
+input[type="submit"]:hover{background:#00a2d3 !important;;}
+
+input[type="button"]{padding: 10px 30px !important;border: 1px solid #fff !important; border-radius:5px !important;
+                     background:darkred !important;
+font-size: 14px;color: #fff !important;font-weight: bold;}
+
+input[type="button"]:hover{background: brown !important;;}
+
+.editprofile ul{margin: 0px;padding: 0px;}
+
+table{border: 1px solid #ccc;text-align: center;}
+table th{padding: 0px 30px;background: #665851;color: #fff;font-size: 14px;}
+table td{padding: 0px 30px;}
+
+.editprofile ul li{list-style: none;margin-bottom: 10px;float: left;width: 100%;}
+.editprofile strong
+{
+    /* Give it a width */
+    float: left;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    width: 20%;
+    margin-bottom:0px;
+
+/* For visibility. Delete me */
+
+}
+
+.editprofile span
+{
+    /* Give it a width */
+    float: left;
+    /* For visibility. Delete me */
+    width: 50%;
+    
+
+}
+
+.radiomargin{margin-left: 30px;}
+
+/* after login css end */
+
+
+
+
+
+
+h1#title {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	font-size: 3.2em;
+	color: white;
+	text-shadow: 0 0 10px rgba(0,0,0,0.8);
+	margin: 0 auto;
+	padding-top: 180px;
+	max-width: 300px;
+	text-align: center;
+	position: relative;
+	top: 0px;
+}
+
+h1#title span span {
+	font-weight: 400;
+}
+
+h2 {
+	text-transform: uppercase;
+	color: white;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 1.4em;
+	line-height: 2.8em;
+}
+
+a {
+	text-decoration: none;
+	color: #666;
+}
+
+a:hover {
+	color: #aeaeae;
+}
+
+p.small {
+	font-size: 0.8em;
+	margin: 20px 0 0;
+}
+
+
+/* Layout */
+.container {
+	margin: 0;
+}
+
+.top {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+.login-box {
+	background-color: white;
+	max-width: 340px;
+	margin: 0 auto;
+	position: relative;
+	top: 80px;
+	padding-bottom: 30px;
+	border-radius: 5px;
+	box-shadow: 0 5px 50px rgba(0,0,0,0.4);
+	text-align: center;
+}
+
+.login-box .box-header {
+	background-color: #665851;
+	margin-top: 0;
+	border-radius: 5px 5px 0 0;
+        
+}
+
+.login-box label {
+	font-weight: 700;
+	font-size: .8em;
+	color: #888;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	line-height: 2em;
+}
+
+.login-box input {
+	margin-bottom: 20px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	font-size: .9em;
+	color: #888;
+}
+
+.login-box input:focus {
+	outline: none;
+	border-color: #665851;
+	transition: 0.5s;
+	color: #665851;
+}
+
+.login-box button {
+	margin-top: 0px;
+	border: 0;
+	border-radius: 2px;
+	color: white;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.7em;
+	letter-spacing: 1px;
+	background-color: #665851;
+	cursor:pointer;
+	outline: none;
+}
+
+.login-box button:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.login-box button:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.selected {
+	color: #665851!important;
+	transition: 0.5s;
+}
+
+/* Animation Delay */
+#logo {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 2s;
+}
+
+.login-box {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+}
+
+@media only screen and (max-width:860px) and (min-width:150px)
+{
+  .homecontainer{margin:auto;width: 90%; }
+.homecontainerin{width: 90%; float:left;margin-top:20%; }
+.homecontainercol{width:100%; float:left; text-align:center;margin-bottom:20px;}
+
+.homecontainercolcircle{width:220px;border-radius:50%;background: white;height: 220px;text-align: center;margin-left:48px;}
+.homecontainercolcircle img{width:220px;border-radius:50%;height: 220px;}
+.homecontainercol h2{font-weight: bold;font-size: 24px;}  
+
+* after login css start */
+
+.closeright{float: right !important;}
+
+.afterlogincontainer{margin:20px auto auto auto;width: 90%;}
+
+.afterlogincontainerleft{width:100%;float: left;}
+
+.afterlogincontainerleft ul{margin: 0px;padding: 0px;}
+.afterlogincontainerleft ul li{list-style: none;float: left;width: 95%;margin-bottom:5px;}
+.afterlogincontainerleft ul li a{loat: left;width: 95%;padding: 15px 10px;color: #fff;background: #008CBA;
+font-size: 17px;font-weight: bold;font-family:  monospace;
+text-decoration: none;}
+
+.afterlogincontainerleft ul li a:hover{background: #00a2d3;}
+
+.afterlogincontainerright{width:100%;float:left;background:white;}
+
+.afterlogincontainerright ul{margin: 0px;padding: 0px;}
+.afterlogincontainerright ul li{list-style: none;float: left;width: 95%;margin-bottom:10px;}
+
+.container h2 { margin-top:30px;}
+
+.box h3{
+	text-align:center;
+	position:relative;
+	top:80px;
+}
+.box {
+	width:70%;
+	height:200px;
+	background:#FFF;
+	margin:40px auto;
+}
+          div.position {
+    position:absolute;
+    top:210px;
+   
+}
+         .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:blink;
+    display: inline-block;
+    font-size: 14px;
+   
+    margin: 2px 1px;
+    cursor: pointer;
+}
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 3px solid #008CBA;
+}
+            .alert-box {
+    color:#555;
+    border-radius:10px;
+    font-family:Tahoma,Geneva,Arial,sans-serif;font-size:11px;
+    padding:10px 10px 10px 36px;
+    margin:10px;
+}
+.alert-box span {
+    font-weight:bold;
+    text-transform:uppercase;
+}
+.error {
+    background:#ffecec url('images/error.png') no-repeat 10px 50%;
+    border:1px solid #f5aca6;
+}
+.success {
+    background:#e9ffd9 url('images/notice.gif') no-repeat 10px 50%;
+    border:2px solid #a6ca8a;
+    
+    position:relative;
+}
+.warning {
+    background:#fff8c4 url('images/notice.gif') no-repeat 10px 50%;
+    border:1px solid #f2c779;
+    
+    position:relative;
+}
+.notice {
+    background:#e3f7fc url('images/notice.gif') no-repeat 10px 50%;
+    border:3px solid #8ed9f6;
+    
+     position:relative;
+}
+#ProfilePage
+{
+    /* Move it off the top of the page, then centre it horizontally */
+    float: left;
+    width:86%;
+    padding: 20px;
+    margin-left: 0px;
+
+/* For visibility. Delete me */
+border: 1px solid #ccc;
+}
+
+#LeftCol
+{
+    /* Move it to the left */
+    float: left;
+
+    width: 100%;
+    text-align: center;
+
+    /* Move it away from the content */
+    margin-right:0px;
+
+/* For visibility. Delete me */
+
+}
+
+#Photo
+{
+    /* Width and height of photo container */
+    width: 200px;
+    height: 200px;
+
+/* For visibility. Delete me */
+border: 1px solid green;
+}
+
+#PhotoOptions
+{
+    text-align: center;
+    width: 200px;
+
+/* For visibility. Delete me */
+border: 1px solid brown;
+}
+
+#Info
+{
+    
+    width:100%;
+    
+
+    /* Move it to the right */
+    float: right;
+
+/* For visibility. Delete me */
+
+}
+
+#Info strong
+{
+    /* Give it a width */
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    width: 100%;
+    margin-bottom:10px;
+
+/* For visibility. Delete me */
+
+}
+
+#Info span
+{
+    /* Give it a width */
+    display: inline-block;
+    /* For visibility. Delete me */
+    border: 1px solid #eee;
+    border-radius:2px;
+    padding: 8px;
+    width: 100%;
+    
+
+}
+
+.editprofile strong
+{
+    /* Give it a width */
+    float: left;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    width:100%;
+    margin-bottom:10px;
+    
+
+/* For visibility. Delete me */
+
+}
+
+.editprofile span
+{
+    /* Give it a width */
+    float: left;
+    /* For visibility. Delete me */
+    width:100%;
+    
+
+}
+
+/* after login css end */
+
+
+}
